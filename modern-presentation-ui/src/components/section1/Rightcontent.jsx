@@ -2,7 +2,7 @@ import React from 'react'
 
 const Rightcontent = () => {
   return (
-    <div>
+    <div className='h-full w-full bg-black mb-5' >
       
     </div>
   )
