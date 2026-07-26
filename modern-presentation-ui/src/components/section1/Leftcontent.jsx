@@ -8,7 +8,7 @@ const Leftcontent = () => {
       </h1>
 
       <p className='text-gray-600'>Depending on customer satisfaction and access to banking products, potential target audience can be divided into three groups.</p>
-      <div className='mt-34 '>
+      <div className='mt-25 '>
         <Arrow />
       </div>
     </div>

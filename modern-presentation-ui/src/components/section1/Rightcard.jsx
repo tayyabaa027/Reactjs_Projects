@@ -4,7 +4,7 @@ import { MoveRight } from "lucide-react";
 
 const Rightcard = (props) => {
   return (
-    <div className="relative w-[250px] h-[450px] rounded-3xl shrink-0 overflow-hidden">
+    <div className="relative w-62.5 h-112.5 rounded-3xl shrink-0 overflow-hidden">
 
       {/* Background Image */}
       <img
@@ -23,12 +23,12 @@ const Rightcard = (props) => {
 
       {/* Content */}
       <div className=" absolute bottom-6 left-6 right-6 text-white">
-        <p className="text-lg font-semibold leading-7 max-w-[240px]">
+        <p className="text-lg font-semibold leading-7 max-w-60">
           {props.intro}
         </p>
 
         <div className="mt-6 flex items-center gap-5">
-  <button className="flex-1 bg-blue-600 py-3 rounded-full font-medium">
+  <button className=" flex-1 bg-blue-600 py-3 rounded-full font-medium">
     {props.status}
   </button>
 

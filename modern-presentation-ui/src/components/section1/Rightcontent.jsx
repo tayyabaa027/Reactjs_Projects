@@ -6,9 +6,11 @@ const Rightcontent = ({user}) => {
   return (
     
     <div className='h-full w-full flex gap-4 overflow-x-auto  scrollbar-hide' >
-      {user.map((el)=>{
+      {user.map((el,index)=>{
         return (
-          <Rightcard id={el.id} img={el.img}  status={el.status} intro={el.intro}/>
+          <div key={index}>
+          <Rightcard id={el.id} img={el.image}  status={el.status} intro={el.intro}/>
+          </div>
         )
       })}
     </div>
