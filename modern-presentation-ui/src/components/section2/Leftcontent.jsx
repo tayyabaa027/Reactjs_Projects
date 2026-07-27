@@ -6,11 +6,11 @@ const Leftcontent = () => {
     return (
         <div className=' h-full w-1/2'>
             <div className=' flex flex-col gap-2 mt-2'>
-                <h2 className='font-extrabold pb-7 text-4xl'>E-com market is expected to exceed to <span className="bg-lime-300 rounded-full px-5 py-1  "> $300B</span>  in 2027</h2>
+                <h2 className='font-extrabold pb-7 text-4xl'>E-com market is expected to exceed $300B in 2027</h2>
                 <div className='flex  '>  <Star />
                     <h4 className='text-gray-600 pl-5   w-90'>
 
-                        In Pakistan MSME contribution to eTailing sales is expected to grow between 60–70% annually to reach USD100Bn by FY 202
+                        In Pakistan MSME contribution to eTailing sales is expected to grow between 60-70% annually to reach USD100Bn by FY 202
                     </h4></div>
 
             </div>
