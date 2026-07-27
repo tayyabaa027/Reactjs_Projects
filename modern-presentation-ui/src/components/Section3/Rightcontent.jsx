@@ -1,53 +1,56 @@
-// import React from "react";
-// import { ShoppingCart, TrendingUp } from "lucide-react";
+import React from "react";
+import { ShoppingCart, TrendingUp } from "lucide-react";
 
+const Rightcontent = () => {
+  return (
+    <div className="w-1/2 h-full flex justify-center items-center">
 
-// const Rightcontent = () => {
-//   return (
-//     <div className="w-1/2 h-full flex justify-center items-center">
+      <div className="relative w-130 h-130">
 
-//       <div className="relative w-[500px] h-[500px]">
+        {/* Top Left Image */}
+        <img
+          src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=900"
+          alt=""
+          className="absolute top-0 left-0 w-80 h-62.5 rounded-[2.2rem] object-cover"
+        />
 
-//         {/* Top Image */}
-//         <img
-//           src="https://i.pinimg.com/736x/24/1e/bd/241ebd2e57a5f638e652c18801ae8263.jpg"
-//           alt=""
-//           className="absolute top-0 left-0 w-[310px] h-[250px] rounded-[35px] object-cover"
-//         />
+        {/* Green Card */}
+        <div className="absolute top-0 right-0 w-42.5 h-42.5 bg-lime-300 rounded-[2.2rem] flex flex-col justify-center items-center px-5 z-20">
 
-//         {/* Green Card */}
-//         <div className="absolute top-0 right-0 w-[170px] h-[170px] rounded-[35px] bg-lime-300 flex flex-col justify-center items-center">
+          <ShoppingCart size={40} strokeWidth={2.2} />
 
-//           <ShoppingCart size={40} />
+          <p className="text-center text-base font-medium mt-5 leading-6">
+            Trends of moving
+            <br />
+            from retail to e-Tail
+          </p>
 
-//           <p className="text-center mt-4 text-lg">
-//             Trends of moving from retail to e-Tail
-//           </p>
+        </div>
 
-//         </div>
+        {/* Bottom Right Image */}
+        <img
+          src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=900"
+          alt=""
+          className="absolute bottom-0 right-0 w-82.5 h-72.5 rounded-[2.2rem] object-cover"
+        />
 
-//         {/* Blue Card */}
-//         <div className="absolute bottom-0 left-0 w-[220px] h-[190px] rounded-[35px] bg-blue-500 text-white flex flex-col justify-center items-center">
+        {/* Blue Card */}
+        <div className="absolute left-0 bottom-0 w-47.5 h-47.5 bg-blue-500 rounded-[2.2rem] flex flex-col justify-center items-center text-white px-5 z-20">
 
-//           <TrendingUp size={40} />
+          <TrendingUp size={38} strokeWidth={2.2} />
 
-//           <p className="text-center text-xl mt-5">
-//             Fast-growing market segment
-//           </p>
+          <p className="text-center text-lg font-semibold mt-5 leading-7">
+            Fast-growing
+            <br />
+            market segment
+          </p>
 
-//         </div>
+        </div>
 
-//         {/* Bottom Image */}
-//         <img
-//           src={img}
-//           alt=""
-//           className="absolute bottom-0 right-0 w-[330px] h-[280px] rounded-[35px] object-cover"
-//         />
+      </div>
 
-//       </div>
+    </div>
+  );
+};
 
-//     </div>
-//   );
-// };
-
-// export default Rightcontent;
+export default Rightcontent;
