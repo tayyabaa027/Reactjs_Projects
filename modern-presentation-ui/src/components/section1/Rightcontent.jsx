@@ -1,5 +1,4 @@
 import React from 'react'
-import img1 from "../../assets/casual yet classy ll elegant timeless classic outfit_🤎🤍.jpeg"
 import Rightcard from './Rightcard'
 const Rightcontent = ({user}) => {
 

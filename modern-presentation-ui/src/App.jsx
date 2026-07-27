@@ -1,6 +1,8 @@
 import React from 'react'
 import Section1 from './components/section1/Section1'
 import Section2 from './components/section2/Section2'
+import Section3 from './components/Section3/Section3'
+import Header from './components/Header/Header'
 const App = () => {
   const cards = [
   {
@@ -55,8 +57,10 @@ const App = () => {
 ]; 
   return (
     <div>
+      < Header/>
       <Section1 user={cards}/>
       <Section2/>
+      <Section3/>
     </div>
   )
 }
