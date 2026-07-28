@@ -15,13 +15,13 @@ const Leftcontent = () => {
 
             </div>
             <div className=' w-full h-1/2 flex gap-5 items-center'>
-                <div className=' relative w-1/2 bg-blue-500 px-5 pt-15 pb-5 rounded-4xl'>
+                <div className=' shadow-blue-300 relative hover:translate-y-2 duration-300  w-1/2 bg-blue-500 px-5 pt-15 pb-5 rounded-4xl'>
                     <h2 className='font-bold pb-4 text-3xl text-white'>26.7%
                     </h2>
                     <p className='text-white'>Expected annual growth of eCom market size</p>
 <div className='absolute bottom-33  left-40 w-10 h-10 rounded-full border-black  bg-white' ><ArrowUpRight size={40} strokeWidth={2}/></div>
                 </div>
-                <div className=' relative w-1/2 bg-lime-300  px-5 pt-15 pb-5 rounded-4xl'> 
+                <div className=' relative hover:translate-y-2 duration-300 w-1/2 bg-lime-300  px-5 pt-15 pb-5 rounded-4xl'> 
                     <h2 className='font-bold pb-4 text-3xl'>25%</h2>
                    
                     <p className='text-black'>E-com share of the organized retail in 2030</p>               
