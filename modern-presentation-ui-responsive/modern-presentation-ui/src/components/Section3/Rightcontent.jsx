@@ -4,7 +4,7 @@ import { ShoppingCart, TrendingUp, Star, Sparkles } from "lucide-react";
 const RightContent = () => {
   return (
     <div className="w-full lg:w-1/2 h-auto lg:h-full flex justify-center items-center">
-      <div className="w-full flex justify-center items-center overflow-hidden h-[240px] sm:h-[336px] md:h-[408px] lg:h-[480px]">
+      <div className="w-full flex justify-center items-center overflow-hidden h-60 sm:h-84 md:h-102 lg:h-120">
       <div className="relative w-120 h-120 origin-center scale-[0.5] sm:scale-[0.7] md:scale-[0.85] lg:scale-100">
         {/* Ambient glow */}
         <div

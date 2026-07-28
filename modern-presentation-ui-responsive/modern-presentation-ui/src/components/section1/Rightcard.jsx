@@ -28,11 +28,11 @@ const Rightcard = (props) => {
         </p>
 
         <div className="mt-6 flex items-center gap-5">
-  <button className=" flex-1 bg-blue-600 py-3 rounded-full font-medium">
+  <button className="flex-1 bg-blue-600 py-3 rounded-full font-medium  hover:bg-blue-500 ">
     {props.status}
   </button>
 
-  <button className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
+  <button className="  w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center hover:translate-x-3 duration-300 ">
     <MoveRight size={18} strokeWidth={3} />
   </button>
 </div>
